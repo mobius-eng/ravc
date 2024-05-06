@@ -7,7 +7,7 @@
 chisq_score(tidypca, newdata)
 }
 \arguments{
-\item{tidypca}{A `tidypca` object}
+\item{tidypca}{A \code{tidypca} object}
 
 \item{newdata}{Either original data or PCA-transformed}
 }

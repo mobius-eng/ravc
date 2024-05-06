@@ -11,9 +11,9 @@ standardize(.data, ..., .loc_fn = mean, .scale_fn = stats::sd)
 
 \item{...}{tidy-select columns}
 
-\item{.loc_fn}{Location function (e.g., `mean` or `median`)}
+\item{.loc_fn}{Location function (e.g., \code{mean} or \code{median})}
 
-\item{.scale_fn}{Scale function (e.g., `sd` or `mad`)}
+\item{.scale_fn}{Scale function (e.g., \code{sd} or \code{mad})}
 }
 \value{
 A standardize object

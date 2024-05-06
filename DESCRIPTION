@@ -1,7 +1,7 @@
 Package: ravc
 Type: Package
 Title: Useful functions to manipulate the data
-Version: 0.1.0
+Version: 0.2.0
 Author: Alexey V. Cherkaev
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: A collection of useful functions.
@@ -12,8 +12,12 @@ RoxygenNote: 7.2.3
 Imports: 
     dplyr,
     magrittr,
+    purrr,
     rlang,
     stats,
     tibble,
     tidyr,
-    tidyselect
+    tidyselect,
+    recipes,
+    broom
+Roxygen: list(markdown = TRUE)

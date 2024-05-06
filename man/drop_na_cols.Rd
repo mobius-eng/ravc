@@ -14,7 +14,7 @@ drop_na_cols(.data, ..., .na_max = 0.25)
 \item{.na_max}{Maximum proportion of missing values allowed}
 }
 \value{
-A `drop_na_cols` object
+A \code{drop_na_cols} object
 }
 \description{
 Drop columns with too many missing values

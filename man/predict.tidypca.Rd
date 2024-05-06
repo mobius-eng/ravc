@@ -7,11 +7,11 @@
 \method{predict}{tidypca}(object, newdata, to_latent = TRUE, ...)
 }
 \arguments{
-\item{object}{A `tidypca` object}
+\item{object}{A \code{tidypca} object}
 
 \item{newdata}{A data frame-ilke data}
 
-\item{to_latent}{if `TRUE`, performs usual transformation to PCs (latent
+\item{to_latent}{if \code{TRUE}, performs usual transformation to PCs (latent
 space). Otherwise, transforms from latent to original variables.}
 
 \item{...}{Unused}

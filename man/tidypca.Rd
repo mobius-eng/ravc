@@ -19,8 +19,8 @@ tidypca(.data, ..., .center = TRUE, .scale = FALSE, .max_var = 1)
 variance should the PCs explain.}
 }
 \value{
-A `tidypca` (S3) object with fields `prcomp`, `cols` and `ncomp`.
+A \code{tidypca} (S3) object with fields \code{prcomp}, \code{cols} and \code{ncomp}.
 }
 \description{
-Apply PCA to a data frame. Convenience wrapper over `prcomp`
+Apply PCA to a data frame. Convenience wrapper over \code{prcomp}
 }
